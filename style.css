@@ -1,8 +1,58 @@
+body
+{
+    background-color:#C4C4C4;
+    margin: 0px;
+}
 header
 {
     display: flex;
-    flex-direction: column
-    justify-content: ;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     
+}
+.Chiken_Pella
+{
+    width: 262px;
+    height: 323px;
+    border-radius: 10px;
+    background-color:#312F30;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+.burgers
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 90px;
+}
+.Burger_King
+{
+    
+    background-color:#312F30;
+    height: 543px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bureger_text
+{
+    width: 371px;
+    height: 214px;
+    color: white;
+}
+.bureger_text button
+{
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #5555;
+    border: none;
+}
+.bureger_text span
+{
+    display: block;
+    color: #F6762C;
+    padding: 13px 0;
 }
